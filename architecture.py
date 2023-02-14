@@ -1,7 +1,7 @@
 import math
 import torch
 import torch.nn as nn
-import block as B
+from . import block as B
 
 
 class RRDB_Net(nn.Module):
